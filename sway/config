@@ -10,8 +10,8 @@ input type:touchpad {
 }
 
 # display configurations for my desk, using information from a good wdisplays setup
-output eDP-1 pos 2480 670 mode 2880x1800@60Hz scale 1.5 scale_filter smart
-output DP-3 pos 1040 63 mode 2560x1440@60Hz scale 1.0 scale_filter nearest transform 270
+output eDP-1 pos 2480 670 mode 2880x1800@60Hz scale 1.5 scale_filter smart bg bg1.jpg fill
+output DP-3 pos 0 670 mode 2560x1440@60Hz scale 1.0 scale_filter nearest bg bg1.jpg fill
 
 #--------------------------------------------------
 
