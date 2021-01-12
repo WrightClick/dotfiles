@@ -48,7 +48,7 @@
 
 /* The whole bar */
 #waybar {
-    background: #323232;
+    background: #434C5E;
     color: white;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 13px;
@@ -81,11 +81,11 @@
 }
 
 #battery.warning {
-    color: orange;
+    color: #D08770;
 }
 
 #battery.critical {
-    color: red;
+    color: #BF616A;
 }
 
 #battery.warning.discharging {
@@ -107,11 +107,11 @@
 }
 
 #cpu.warning {
-    color: orange;
+    color: #D08770;
 }
 
 #cpu.critical {
-    color: red;
+    color: #BF616A;
 }
 
 #memory {
@@ -121,11 +121,11 @@
 }
 
 #memory.warning {
-    color: orange;
+    color: #D08770;
 }
 
 #memory.critical {
-    color: red;
+    color: #BF616A;
     animation-name: blink-critical;
     animation-duration: 2s;
 }
@@ -142,7 +142,7 @@
 }
 
 #network.disconnected {
-    color: orange;
+    color: #D08770;
 }
 
 #pulseaudio {
@@ -162,7 +162,7 @@
 }
 
 #temperature.critical {
-    color: red;
+    color: #BF616A;
 }
 
 #tray {
@@ -179,16 +179,16 @@
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
-    color: #888888;
+    color: #a3be8c;
 }
 
 #workspaces button.focused {
     border-color: #4c7899;
     color: white;
-    background-color: #999999;
+    background-color: #88c0d0;
 }
 
 #workspaces button.urgent {
-    border-color: #c9545d;
-    color: #c9545d;
+    border-color: #d08770;
+    color: #bf616a;
 }
