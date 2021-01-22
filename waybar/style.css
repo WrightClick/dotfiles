@@ -10,6 +10,21 @@
  * Keyframes
  * -------------------------------------------------------------------------- */
 
+@define-color polar-dark  #4c566a;
+
+@define-color snow-white  #eceff4;
+@define-color snow-grey  #d8dee9;
+
+@define-color frost-green  #8fbcbb;
+@define-color frost-light-blue  #88c0d0;
+@define-color frost-dark-blue #5e81ac;
+
+@define-color aurora-red #bf616a;
+@define-color aurora-orange #d08770;
+@define-color aurora-yellow #ebcb8b;
+@define-color aurora-green #a3be8c;
+
+
 @keyframes blink-warning {
     70% {
         color: white;
@@ -17,18 +32,18 @@
 
     to {
         color: white;
-        background-color: orange;
+        background-color: #EBCB8B;
     }
 }
 
 @keyframes blink-critical {
     70% {
-      color: white;
+      color: #D8DEE9;
     }
 
     to {
         color: white;
-        background-color: red;
+        background-color: #D08770;
     }
 }
 
@@ -48,8 +63,8 @@
 
 /* The whole bar */
 #waybar {
-    background: #434C5E;
-    color: white;
+    background: @frost-dark-blue;
+    color: @snow-white;
     font-family: Cantarell, Noto Sans, sans-serif;
     font-size: 13px;
 }
@@ -80,8 +95,12 @@
     animation-direction: alternate;
 }
 
+#battery.normal {
+    color: #A3BE8C;
+}
+
 #battery.warning {
-    color: #D08770;
+    color: #EBCB8B;
 }
 
 #battery.critical {
