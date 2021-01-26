@@ -198,16 +198,14 @@
     color: rgb(102, 220, 105);
 }
 
-#temperature.cool {
-    color: @frost-dark-blue;
-}
-#temperature.low {
-    color: @aurora-green;
+#temperature {
+    color: @frost-light-blue;
 }
 
 #temperature.critical {
     animation-name: blink-critical;
     animation-duration: 2s;
+    color: @aurora-red;
 }
 
 #tray {
