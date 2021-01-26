@@ -66,7 +66,9 @@
     background: @polar-dark;
     color: @snow-white;
     font-family: Cantarell, Noto Sans, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
+    opacity: 0.9;
+    border-bottom: 2px solid @frost-light-blue;
 }
 
 /* Each module */
