@@ -29,8 +29,6 @@
         "network",
         "memory",
         "cpu",
-        "temperature",
-        "custom/keyboard-layout",
         "battery",
         "pulseaudio",
         "tray",
@@ -88,7 +86,7 @@
 
 
     "memory": {
-        "interval": 5,
+        "interval": 2,
         "format": "  {}%", // Icon: memory
         "states": {
 	    "normal": 0,
@@ -152,20 +150,6 @@
 	    "high": 50 
 	},
         "on-click": "pavucontrol"
-    },
-
-    "temperature": {
-      "critical-threshold": 70,
-      "interval": 5,
-      "format": "{icon}  {temperatureC}°C",
-      "format-icons": [
-          "", // Icon: temperature-empty
-          "", // Icon: temperature-quarter
-          "", // Icon: temperature-half
-          "", // Icon: temperature-three-quarters
-          ""  // Icon: temperature-full
-      ],
-      "tooltip": true
     },
 
     "tray": {
