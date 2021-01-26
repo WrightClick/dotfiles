@@ -3,15 +3,20 @@
 # Clipboard manager
 exec wl-paste -t text --watch clipman store
 
+xwayland enable
+
 # Enable tap-to-click
 input type:touchpad {
 	tap enabled
 	natural_scroll enabled
 }
 
+set $opacity 0.9
+for_window [app_id="Alacritty"] opacity $opacity
+
 # display configurations for my desk, using information from a good wdisplays setup
-output eDP-1 pos 2480 670 mode 2880x1800@60Hz scale 1.5 scale_filter smart
-output DP-3 pos 0 670 mode 2560x1440@60Hz scale 1.0 scale_filter nearest
+output eDP-1 pos 2480 670 mode 2880x1800@60Hz scale 1.5 scale_filter smart bg bg2.jpg fill
+output DP-3 pos 0 670 mode 2560x1440@60Hz scale 1.0 scale_filter nearest bg bg2.jpg fill
 
 #--------------------------------------------------
 
