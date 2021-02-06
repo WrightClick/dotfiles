@@ -15,9 +15,9 @@ set $opacity 0.9
 for_window [app_id="Alacritty"] opacity $opacity
 
 # display configurations for my desk, using information from a good wdisplays setup
-output eDP-1 pos 2480 670 mode 2880x1800@60Hz scale 1.5 scale_filter smart bg bg2.jpg fill
-output DP-3 pos 0 670 mode 2560x1440@60Hz scale 1.0 scale_filter nearest bg bg2.jpg fill
-
+output eDP-1 pos 7352 758 mode 2880x1800@60Hz scale 1.5 scale_filter smart bg bg2.jpg fill
+output DP-1 pos 4400 758 mode 3840x2160@60Hz scale 1.3 scale_filter smart bg bg2.jpg fill
+output DP-4 pos 2960 0 mode 2560x1440@60Hz transform 270 scale 1 scale_filter smart bg bg2.jpg fill
 #--------------------------------------------------
 
 
